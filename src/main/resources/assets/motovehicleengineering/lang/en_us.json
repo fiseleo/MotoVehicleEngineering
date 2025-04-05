@@ -1,4 +1,5 @@
 {
   "itemGroup.motovehicleengineering.mve_tab" : "MotoVehicle",
-  "item.motovehicleengineering.piston_steel" : "Piston(Steel)"
+  "item.motovehicleengineering.piston_steel" : "Piston(Steel)",
+  "block.motovehicleengineering.bauxite" : "Bauxite"
 }

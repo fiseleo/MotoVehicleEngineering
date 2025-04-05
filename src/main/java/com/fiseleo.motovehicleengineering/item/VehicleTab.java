@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import static com.fiseleo.motovehicleengineering.item.PistonSteel.PISTON_Steel;
+import static com.fiseleo.motovehicleengineering.block.Bauxite.Bauxite;
 
 
 public class VehicleTab {
@@ -23,6 +24,7 @@ public class VehicleTab {
                             .icon(() -> new ItemStack(PISTON_Steel.get()))
                             .displayItems((params, output) -> {
                                 output.accept(PISTON_Steel.get());
+                                output.accept(Bauxite.get());
 
                             })
                             .build()
