@@ -8,7 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import static com.fiseleo.motovehicleengineering.item.PistonIron.PISTON_IRON;
+import static com.fiseleo.motovehicleengineering.item.PistonSteel.PISTON_Steel;
 
 
 public class VehicleTab {
@@ -20,9 +20,9 @@ public class VehicleTab {
                     CreativeModeTab.builder()
                             .title(Component.translatable("itemGroup." + MODID + ".mve_tab"))
                             .withTabsBefore(CreativeModeTabs.COMBAT)
-                            .icon(() -> new ItemStack(PISTON_IRON.get()))
+                            .icon(() -> new ItemStack(PISTON_Steel.get()))
                             .displayItems((params, output) -> {
-                                output.accept(PISTON_IRON.get());
+                                output.accept(PISTON_Steel.get());
 
                             })
                             .build()
