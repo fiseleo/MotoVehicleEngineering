@@ -8,6 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import static com.fiseleo.motovehicleengineering.item.AluminumPiston.Aluminum_Piston;
 import static com.fiseleo.motovehicleengineering.item.PistonSteel.PISTON_Steel;
 import static com.fiseleo.motovehicleengineering.block.Bauxite.Bauxite;
 
@@ -25,6 +26,7 @@ public class VehicleTab {
                             .displayItems((params, output) -> {
                                 output.accept(PISTON_Steel.get());
                                 output.accept(Bauxite.get());
+                                output.accept(Aluminum_Piston.get());
 
                             })
                             .build()

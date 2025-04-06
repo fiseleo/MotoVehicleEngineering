@@ -2,6 +2,7 @@ package com.fiseleo.motovehicleengineering;
 
 
 import com.fiseleo.motovehicleengineering.block.Bauxite;
+import com.fiseleo.motovehicleengineering.item.AluminumPiston;
 import com.fiseleo.motovehicleengineering.item.VehicleTab;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -21,6 +22,7 @@ public class MotoVehicleEngineering
         PistonSteel.ITEMS.register(modEventBus);
         Bauxite.BLOCKS.register(modEventBus);
         Bauxite.ITEMS.register(modEventBus);
+        AluminumPiston.ITEMS.register(modEventBus);
 
 
 
